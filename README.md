@@ -2,7 +2,19 @@
 
 Test Environment with [themis.vim](https://github.com/thinca/vim-themis).
 
+https://registry.hub.docker.com/u/thinca/themis/
+
+
+## Usage
+
+Bind your project to `/root`.
+
 ```
-$ docker --rm -it thinca/themis
+$ docker --rm -it -v /path/to/your/vim-plugin/project:/root thinca/themis
 ```
 
+With arguments.
+
+```
+$ docker --rm -it -v /path/to/your/vim-plugin/project:/root thinca/themis --reporter dot
+```
