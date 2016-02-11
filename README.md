@@ -2,7 +2,7 @@
 
 Test Environment with [themis.vim](https://github.com/thinca/vim-themis).
 
-https://registry.hub.docker.com/u/thinca/themis/
+https://hub.docker.com/r/thinca/themis/
 
 
 ## Usage
