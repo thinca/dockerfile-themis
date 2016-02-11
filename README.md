@@ -10,11 +10,11 @@ https://registry.hub.docker.com/u/thinca/themis/
 Bind your project to `/root`.
 
 ```
-$ docker --rm -it -v /path/to/your/vim-plugin/project:/root thinca/themis
+$ docker run --rm -it -v /path/to/your/vim-plugin/project:/root thinca/themis
 ```
 
 With arguments.
 
 ```
-$ docker --rm -it -v /path/to/your/vim-plugin/project:/root thinca/themis --reporter dot
+$ docker run --rm -it -v /path/to/your/vim-plugin/project:/root thinca/themis --reporter dot
 ```
